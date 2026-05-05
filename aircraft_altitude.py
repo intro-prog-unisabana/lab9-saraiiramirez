@@ -19,4 +19,4 @@ while True:
     elif action == "D":
         aircraft.descend(feet)
 
-print(f"Final altitude: {aircraft.altitude} feet")
+print(f"Final altitude: {aircraft.current_altitude} feet")
